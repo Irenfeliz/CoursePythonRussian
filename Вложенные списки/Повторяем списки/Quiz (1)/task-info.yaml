@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: экономическая задача
+- text: задача с параметром
+- text: уравнение
+- text: задача на теорию чисел
+- text: планиметрия
+- text: неравенство
+- text: стереометрия
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Quiz
+local_check: false

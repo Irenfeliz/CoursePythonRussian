@@ -1,0 +1,10 @@
+type: code
+custom_name: Programming
+files:
+- name: task.py
+  visible: true
+  text: '# put your asm64 code here'
+  learner_created: false
+status: Unchecked
+record: -1
+submission_language: asm64
