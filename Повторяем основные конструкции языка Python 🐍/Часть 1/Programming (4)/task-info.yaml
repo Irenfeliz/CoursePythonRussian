@@ -5,6 +5,20 @@ files:
   visible: true
   text: '# put your asm64 code here'
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    main.S: Assembler messages:
+    main.S:1: Error: junk at end of line, first unrecognized character is `('
+    main.S:3: Error: found ',', expected: ']'
+    main.S:3: Error: junk at end of line, first unrecognized character is `,'
+    main.S:4: Error: invalid character (0xd0) in mnemonic
+    main.S:6: Error: no such instruction: `while year>2011:'
+    main.S:7: Error: no such instruction: `year -=12'
+    main.S:8: Error: no such instruction: `while year<2000:'
+    main.S:9: Error: no such instruction: `year +=12'
+    main.S:11: Error: invalid character '(' in mnemonic
+  time: "Mon, 27 Mar 2023 18:25:49 UTC"
 record: -1
 submission_language: asm64

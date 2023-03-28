@@ -4,6 +4,9 @@ files:
 - name: task.py
   visible: true
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 28 Mar 2023 09:42:32 UTC"
 record: -1
 submission_language: python3.10
